@@ -11,6 +11,9 @@ do
 
 }while(sayac <= limit);
 
+// do-while döngüsünde ise koşul döngünün sonunda kontrol edilir. Bu nedenle, koşul yanlış olsa bile döngü en az bir kez çalışır.
+// Örneğin, limit -5 olsa bile do-while döngüsü bir kez çalışır ve ekrana "Ben bir Patika'lıyım" yazdırır.
+
 /////////////// While ///////////////
 
 while (sayac <= limit)
@@ -22,5 +25,3 @@ while (sayac <= limit)
 // while döngüsünde koşul baştan kontrol edilir. Eğer başlangıç koşulu sağlanmıyorsa döngüye hiç girilmez.
 // Örneğin, limit -5 olduğunda while döngüsü hiç çalışmaz.
 
-// do-while döngüsünde ise koşul döngünün sonunda kontrol edilir. Bu nedenle, koşul yanlış olsa bile döngü en az bir kez çalışır.
-// Örneğin, limit -5 olsa bile do-while döngüsü bir kez çalışır ve ekrana "Ben bir Patika'lıyım" yazdırır.
